@@ -18,6 +18,14 @@ type GithubEventType =
   | "SponsorshipEvent"
   | "WatchEvent";
 
+export interface GithubEvent {
+  type: GithubEventType;
+  repo: {
+    name: string;
+  };
+  created_at: string;
+}
+
 const getEventText = (eventType: GithubEventType): string => {
   const eventDescriptions: Record<GithubEventType, string> = {
     WatchEvent: "starred",
