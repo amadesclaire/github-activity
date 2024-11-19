@@ -6,7 +6,7 @@ Deno (v1.28.0 or higher)
 
 ## Usage
 
-1. Ensure you have Deno installed on your system. (install deno)[https://deno.land/#installation]
+1. Ensure you have Deno installed on your system. [(install deno)](https://deno.land/#installation)
 2. Clone the repository or download the source files.
 3. Open a terminal and navigate to the project directory.
 4. Run `deno task compile`
